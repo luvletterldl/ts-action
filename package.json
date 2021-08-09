@@ -1,0 +1,22 @@
+{
+  "name": "ts-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "baseType": "tsc ./src/baseType.ts",
+    "assets": "tsc ./assets",
+    "union": "tsc ./src/union.ts",
+    "intersection": "tsc ./src/intersection",
+    "function": "tsc ./src/function.ts",
+    "interface": "tsc ./src/interface.ts",
+    "generics": "tsc ./src/generics.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsc": "^2.0.3",
+    "typescript": "^4.3.5"
+  }
+}
